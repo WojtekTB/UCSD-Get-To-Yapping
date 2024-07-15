@@ -18,6 +18,9 @@ How to install manually:
   
   The steps may vary depending on the browser used. You can always look up "How to install unpacked extension in [Your browser name]?" and you are likely to find a detailed explanation.
 
+## How it works
+
+It takes the information about silent parts from video captions. Each piece of captions has a start time and an end time associated with it: that is how the browser knows when to display it. We take these timings and simply skip all the parts where there are no captions displayed.
 
 ## Optional Donation
 https://www.buymeacoffee.com/17victork  
